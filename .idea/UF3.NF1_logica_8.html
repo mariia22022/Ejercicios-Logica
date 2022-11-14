@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Title</title>
+</head>
+<body>
+<script type="text/javascript">
+  //opcion1\
+  let n = 5
+  function ex8(n) {
+    let a = '';
+    for (let i = 1; i < (n + 1); i++) {
+      a += '*  '
+      console.log(a);
+    }
+  }
+  ex8(n)
+
+
+  console.log('opcion2')
+  function ex8_2() {
+    let str = '*  '
+    while (str.length < 16) {
+      console.log(str);
+      str += '*  '
+    }
+  }
+  ex8_2()
+
+
+
+</script>
+</body>
+</html>

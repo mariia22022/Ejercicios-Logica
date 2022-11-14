@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Title</title>
+</head>
+<body>
+<script type="text/javascript">
+
+
+  function ordenar(a,b,c){
+    let maximum = Math.max(a,b,c);
+    let minimum =Math.min(a,b,c);
+    let mediana;
+    if (a!== maximum && a!==minimum){mediana=a}
+    if (b!== maximum && b!==minimum){mediana=b}
+    if (c!== maximum && c!==minimum){mediana=c}
+    console.log(minimum,mediana,maximum);
+  }
+  ordenar(100,5,9);
+</script>
+</body>
+</html>

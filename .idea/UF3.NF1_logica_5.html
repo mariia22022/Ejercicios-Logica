@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Title</title>
+</head>
+<body>
+<script type="text/javascript">
+
+
+    let paraula ='fv1adf2af999v4';
+    let summNumbers = 0;     // Suma de los numeros
+    let countNumbers = 0
+    for(let i = 0;i<paraula.length;i++){
+      if(!Number.isNaN(Number(paraula[i]))){
+        summNumbers+=Number(paraula[i]);
+        countNumbers+=1
+      }
+    }
+    console.log('Suma de los numeros = '+summNumbers)
+    console.log('Cantidad de numeros = '+countNumbers);
+
+/*  var ex5 =(string1)=>{
+  let summNumbers = 0;  // Suma de los numeros
+    for(let i = 0;i<string1.length;i++){
+      if(!Number.isNaN(Number(string1[i]))){
+        summNumbers+=Number(string[i]);
+      }
+    }
+  return  summNumbers;
+  }
+
+  let paraula ='fv1adf2af999v4';
+  console.log('Suma de los numeros = ',ex5(paraula))*/
+
+</script>
+</body>
+</html>

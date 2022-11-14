@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Title</title>
+</head>
+<body>
+<script type="text/javascript">
+
+  let a = 4569871;
+  a=String(a).split("");
+  let index1 = 0;
+  let index2 = 1;
+  for (let i =0;i<a.length/2;i++){
+    let b= a[index1];
+    a[index1] = a[index2]
+    a[index2] = b
+    index1 += 2;
+    index2 += 2;
+  }
+  console.log(a.join(""));
+
+
+
+
+</script>
+</body>
+</html>
